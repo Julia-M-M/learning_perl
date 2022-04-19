@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+    #BETTER: #!/usr/bin/env perl
 # hello-version.pl by Bill Weinman <http://bw.org/contact/>
 
 use 5.18.0;

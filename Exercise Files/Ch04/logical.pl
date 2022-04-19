@@ -13,3 +13,27 @@ if ( $x == $y ) {
     say 'false';
 }
 
+
+if ( 0 ) {
+    say 'true';
+} else {
+    say 'false';    #FALSE because it is empty or 0
+}
+
+
+my $array = ();
+
+if ( $array ) {
+    say 'true';
+} else {
+    say 'false';    #FALSE because it is empty or 0
+}
+
+
+my $array2 = (1, 2, 3);
+
+if ( $array2 ) {
+    say 'true';    #TRUE because it is not empty not 0
+} else {
+    say 'false';
+}

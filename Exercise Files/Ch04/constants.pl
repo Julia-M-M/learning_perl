@@ -8,6 +8,14 @@ use constant PI => 3.141592653589793238462643383279;
 use constant TRUE => 1;
 use constant FALSE => '';
 
+    #OR
+
+use constant {
+    PI => 3.141592653589793238462643383279,
+    TRUE => 1,
+    FALSE => '',
+};
+
 say PI;
 
 if (TRUE) {
